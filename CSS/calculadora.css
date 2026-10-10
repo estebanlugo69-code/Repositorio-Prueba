@@ -1,0 +1,156 @@
+body{
+    background-image: url("https://img.magnific.com/premium-photo/stars-galaxy-outer-space-sky-night-universe_146539-175.jpg?semt=ais_hybrid&w=740&q=80");
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 2s;
+}
+.calculadora{
+    transition: 2s;
+    width: 300px;
+    background-color: #d8d8da;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px #2b2b3d;
+    
+}
+.contenido-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px 0;
+}
+.pantalla{
+    height: 60px;
+    background-color: #060606;
+    color: #ffffff ;
+    font-size: 2.2rem;
+    margin-bottom: 16px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    overflow: hidden;
+    
+}
+
+.botones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn{
+    padding: 18px 0;
+    border: none;
+    border-radius: 16px;
+    background-color: #3d3d54;
+    font-size: 1.4rem;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color:#bbbbbb;
+}
+.btn:active{
+    transform: scale(0.95);
+    
+}
+.btn-operador{
+    background-color: #fffb00e3;
+    font-size: 1.6rem;
+    
+}
+.btn-operador:hover{
+    background-color: #ffb066;
+}
+.btn-igual{
+    background-color: rgb(183, 30, 197);
+    grid-row: span 2;
+}
+.btn-igual:hover{
+    background-color: #28806a;
+}
+
+.btn-cero{
+    grid-column: span 2;
+}
+
+.btn-limpiar, .btn-borrar{
+    background-color: rgb(187, 25, 25);
+}
+
+.btn-limpiar:hover, .btn-borrar:hover{
+    background-color: rgb(174, 14, 14);
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color : #1e1e1e;
+    padding: 10px;
+    margin-top: -10px;
+    text-align: center;
+    margin-left: -11px;
+    margin-right: -11px;
+    border: white 2px solid;
+    border-radius: 5px;
+}
+footer{
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    margin-top: -6px;
+    border: white 2px solid;
+    border-radius: 3px;
+}
+.opciones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+.OP{
+    background-color: aliceblue;
+    transition: 1s;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.OP:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 1s;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}

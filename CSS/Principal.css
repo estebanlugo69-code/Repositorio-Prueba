@@ -1,0 +1,99 @@
+body{
+    background-image: url(https://img.magnific.com/premium-photo/stars-galaxy-outer-space-sky-night-universe_146539-175.jpg?semt=ais_hybrid&w=740&q=80);
+    margin: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    margin:0;   
+}
+.titulo{
+    display: flex;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    justify-content: center;
+
+}
+.opciones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+.OP{
+    background-color: aliceblue;
+    transition: 1s;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.OP:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 1s;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+header{
+    background-color: #1e1e1e;
+    border: white 2px solid;
+    border-radius: 10px;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: -4px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+footer{
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    padding: 15px;;
+    border: white 2px solid;
+    border-radius: 10px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.box{
+    transition: 1s;
+    background-color: #1e1e1e;
+    border: white 2px solid;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.box:hover{
+    transition: 1s;
+    background-color: #0e0e0e;
+    border: 2px solid rgb(52, 18, 92);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

@@ -1,0 +1,238 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://img.magnific.com/premium-photo/stars-galaxy-outer-space-sky-night-universe_146539-175.jpg?semt=ais_hybrid&w=740&q=80);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    margin:0;
+}
+.titulo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    padding: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    margin-top: 2%;
+}
+.SUBTITULO{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.seccion-productos{
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.tarjeta{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-image: url(https://i.pinimg.com/736x/73/05/b3/7305b3c252eb1b8d3313417a091f50af.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    text-align: center;
+}
+.tarjeta-sekiro{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-image: url(https://i.redd.it/f2d4po3oiaj81.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    text-align: center;
+}
+.tarjeta-devil{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-image: url(https://i.redd.it/p6u1k9fvg1q41.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    text-align: center;
+    border: 2px solid rgb(0, 89, 255);    
+}
+.tarjeta-tekken{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-image: url(https://i.pinimg.com/736x/c6/59/b3/c659b365cce7c731ae230e4c0ddb63ae.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    text-align: center;
+    border: 2px solid red;    
+}
+
+
+.destacados{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR_k2DmbW0unSaprZKNOdhhxV2EH6qn_8yVkVmiZLL8WP5qDr8SJRp-yns&s=10);
+    border: 2px solid orange;
+}
+.agotados{
+    background-image: url(https://preview.redd.it/i-love-the-witcher-and-just-finished-god-of-war-so-decided-v0-8u81uz32piv01.jpg?width=1080&crop=smart&auto=webp&s=f97c838cdbdb156adc18ab7aaeac2a6342ce3d63);
+    color: rgb(255, 254, 254);
+}
+.nombre-producto{
+    font-size: 26px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: white
+}
+.precio-producto{
+    font-size: 22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white
+}
+.agregar-producto{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(0, 74, 143);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 1s;
+}
+.agregar-producto:hover{
+    background-color: rgb(189, 123, 0);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.descripcion{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: whitesmoke;
+    flex-grow: 1;
+}
+.imagen-NinjaGaiden{
+    width: 90%;
+    margin: 20px;
+}
+.agotados-productos{
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(5, 5, 5);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: 1s;
+}
+.agotados-productos:hover{
+    background-image: url(https://i.pinimg.com/originals/e6/f8/0b/e6f80be8122d7019c37b39b02dd6ec2c.gif);
+    transform: scale(1.1);
+    transition: 1s;
+}
+.gow-image{
+    width: 80%;
+    margin-left: 10%;
+}
+.resident4{
+    width: 90%;
+    margin-left: 4%;
+    margin-bottom: 7%;
+    padding: 5px;
+}
+.nombre-producto-gow{
+    font-size: 26px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #FF4D00
+}
+.descripcion-gow{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FF4D00;
+    flex-grow: 1;
+}
+.precio-producto-gow{
+    font-size: 22px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FF4D00;
+}
+.sekiro-img{
+    width: 110%;
+}
+.tekken-img{
+    width: 110%
+}
+.dmc-img{
+    width: 100%
+}
+.opciones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+.OP{
+    background-color: aliceblue;
+    transition: 1s;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.OP:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 1s;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+header{
+    background-color : #1e1e1e;
+    padding: 10px;
+    margin-top: -10px;
+    text-align: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+footer{
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -8px;
+    margin-right: -8px;
+    border: white 2px solid;
+    border-radius: 10px;
+}

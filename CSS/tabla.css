@@ -1,0 +1,128 @@
+.par{
+    color:#1e1e1e;
+    border: 1px solid aquamarine;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
+.impar{
+    color:#fcfcfc;
+    width: 200px;
+    border: 1px solid rgb(180, 0, 0);
+    background-color: rgb(180,0,0);
+    border-radius: 5px;
+
+}
+.tablatitulo{
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+}
+body{
+    background-image: url(https://img.magnific.com/premium-photo/stars-galaxy-outer-space-sky-night-universe_146539-175.jpg?semt=ais_hybrid&w=740&q=80);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    margin:0;
+}
+.cuadro-tabla{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-grow: 1;
+    gap: 10px;
+    padding: 0px;
+    color: white;
+}
+.placeholder{
+    border: 0px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    color: white;
+}
+.mensaje{
+    background-color: #1e1e1e;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+.btn{
+    transition: 1.5s;
+    background-color: #1e1e1e;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}
+.btn:hover{
+    transition: 1.5s;
+    background-color: #ffffff;
+    border: 2px solid #1e1e1e;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+}
+.opciones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    padding: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+.OP{
+    background-color: aliceblue;
+    transition: 1s;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+.OP:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    transition: 1s;
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+header{
+    background-color : #1e1e1e;
+    padding: 10px;
+    margin-top: -10px;
+    text-align: center;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -10px;
+    border: white 2px solid;
+    border-radius: 10px;
+}
+footer{
+    background-color: #1e1e1e;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: -8px;
+    margin-right: -8px;
+    border: white 2px solid;
+    border-radius: 10px;
+}
